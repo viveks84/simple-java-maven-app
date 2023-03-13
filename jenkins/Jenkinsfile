@@ -26,5 +26,10 @@ pipeline {
                 echo "Last call made"
             }
         }
+        stage('Complete'){
+            steps{
+                echo "All stages completed"
+            }
+        }
     }
 }
